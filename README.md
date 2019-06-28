@@ -3,6 +3,13 @@
 [![Version](https://img.shields.io/cocoapods/v/BiometricKeychain.svg?style=flat)](https://cocoapods.org/pods/BiometricKeychain)
 [![Platform](https://img.shields.io/cocoapods/p/BiometricKeychain.svg?style=flat)](https://cocoapods.org/pods/BiometricKeychain)
 
+## Description
+
+BiometricKeychain saves and fetches data from keychain only after the biometric validation succeded. If your device does not support biometric authentication or is not enabled, the library will store the items in the keychain without the need for authentication.
+
+By default it supports the following data types ** String **, ** Date **, ** NSNumber **, ** Bool **
+
+
 ## Requirements
 
 - iOS 10
