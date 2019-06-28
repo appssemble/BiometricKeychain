@@ -1,0 +1,16 @@
+PODS:
+  - BiometricKeychain (0.1.0)
+
+DEPENDENCIES:
+  - BiometricKeychain (from `../`)
+
+EXTERNAL SOURCES:
+  BiometricKeychain:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BiometricKeychain: 57b63133ba999b3d4d521a7e8d0f520e6b01e0b7
+
+PODFILE CHECKSUM: 8087e56a01658baa86557855543b2d186447d534
+
+COCOAPODS: 1.5.3

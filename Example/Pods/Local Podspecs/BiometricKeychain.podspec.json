@@ -1,0 +1,27 @@
+{
+  "name": "BiometricKeychain",
+  "version": "0.1.0",
+  "summary": "Biometric keychain helper, saves and fetches data from keychain only after the biometric validation succeded.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/dragosAddisonLee/BiometricKeychain",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "appssemble": "dragos@appssemble.com"
+  },
+  "source": {
+    "git": "https://github.com/dragosAddisonLee/BiometricKeychain.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://twitter.com/dobreandl",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "BiometricKeychain/Classes/**/*",
+  "frameworks": [
+    "LocalAuthentication",
+    "Security"
+  ]
+}

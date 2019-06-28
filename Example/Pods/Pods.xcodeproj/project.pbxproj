@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CCA1F3831D253B57D34992EA73EBC3F /* BiometricKeychain-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 244A15147725FCD276995C5D5FE28B7B /* BiometricKeychain-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57E2A9B46DA64EBBABAAE327D80AF48E /* Pods-BiometricKeychain_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B762D03B25C7C0C886DD16B82425C815 /* Pods-BiometricKeychain_Tests-dummy.m */; };
+		A25C8F7736733A57743B9936966A873A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		A3921477BF7E00D15CB2BA54E192E961 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		D674AA2B34C246BDEC8F9AB0DC1C8BD3 /* BiometricKeychain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DA183E245FA4EDD16330F2727514D5 /* BiometricKeychain-dummy.m */; };
+		E646B48E22C6084F008BBC4A /* BioIDKeychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E646B48B22C6084E008BBC4A /* BioIDKeychain.swift */; };
+		E646B48F22C6084F008BBC4A /* BioDataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E646B48C22C6084F008BBC4A /* BioDataExtension.swift */; };
+		E646B49022C6084F008BBC4A /* BioIDHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E646B48D22C6084F008BBC4A /* BioIDHelper.swift */; };
+		F12348BD4C7A1A8554E5502E666E0C07 /* Pods-BiometricKeychain_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED95EC1066C3BC647DC440B743F8C89F /* Pods-BiometricKeychain_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9315930CFB2F2CF3D1787B5172ECD395 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3BDDBA4B9D79599FD58714E54F869FC;
+			remoteInfo = BiometricKeychain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02FE6E0E161891892739F2F0E04681B3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0E23AB13FD8FDA233B749DABB73E27DE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EFAE82DC2641D3BF91862A0F0A1FFC8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183DBE03E2DD1DF7C4ECA76787EF87A8 /* Pods-BiometricKeychain_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BiometricKeychain_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1CB3C95F7829793A1FCFEC893D9031F5 /* Pods_BiometricKeychain_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BiometricKeychain_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		244A15147725FCD276995C5D5FE28B7B /* BiometricKeychain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BiometricKeychain-umbrella.h"; sourceTree = "<group>"; };
+		29A6683A20E3E306D016F9DD17E67C2C /* Pods-BiometricKeychain_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BiometricKeychain_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		645E806A0B650F3599FDEB5AD920DA7E /* Pods-BiometricKeychain_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BiometricKeychain_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		64DA183E245FA4EDD16330F2727514D5 /* BiometricKeychain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BiometricKeychain-dummy.m"; sourceTree = "<group>"; };
+		6F90154D289D60F3A6657779A3250690 /* BiometricKeychain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BiometricKeychain.modulemap; sourceTree = "<group>"; };
+		70B707092BC24C56CF26BE4BBC471D69 /* Pods-BiometricKeychain_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BiometricKeychain_Tests-resources.sh"; sourceTree = "<group>"; };
+		73D66B096D43ECAFB1C5DB2C09DEA724 /* Pods-BiometricKeychain_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BiometricKeychain_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		807508AEADC209DB25713D614C4DC762 /* BiometricKeychain.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BiometricKeychain.xcconfig; sourceTree = "<group>"; };
+		912CFE25FEE031C544CAE100B61DE5CB /* BiometricKeychain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BiometricKeychain-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97C0CDD07C2F0AC3B5E67AA60713B7D1 /* BiometricKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BiometricKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A38FCF6AD9A8E0A6E06FE14AE4470B02 /* BiometricKeychain.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = BiometricKeychain.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B762D03B25C7C0C886DD16B82425C815 /* Pods-BiometricKeychain_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BiometricKeychain_Tests-dummy.m"; sourceTree = "<group>"; };
+		B92FFD44036A72E0101B9513E507E1B9 /* Pods-BiometricKeychain_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BiometricKeychain_Tests.modulemap"; sourceTree = "<group>"; };
+		C1EF90B60821A358EE99D2E0EEBD050D /* Pods-BiometricKeychain_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BiometricKeychain_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E646B48B22C6084E008BBC4A /* BioIDKeychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BioIDKeychain.swift; path = BiometricKeychain/Classes/BioIDKeychain.swift; sourceTree = "<group>"; };
+		E646B48C22C6084F008BBC4A /* BioDataExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BioDataExtension.swift; path = BiometricKeychain/Classes/BioDataExtension.swift; sourceTree = "<group>"; };
+		E646B48D22C6084F008BBC4A /* BioIDHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BioIDHelper.swift; path = BiometricKeychain/Classes/BioIDHelper.swift; sourceTree = "<group>"; };
+		EAD24F39557F748894061106A66C0196 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		ED95EC1066C3BC647DC440B743F8C89F /* Pods-BiometricKeychain_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BiometricKeychain_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0ED27CF3029D9CB154C02D16C251ABC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A25C8F7736733A57743B9936966A873A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D9EB5DB200589FBE7E1EA6342122DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3921477BF7E00D15CB2BA54E192E961 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29D37FCDBFBE6FC5FFD4CCD0DBE916FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97C0CDD07C2F0AC3B5E67AA60713B7D1 /* BiometricKeychain.framework */,
+				1CB3C95F7829793A1FCFEC893D9031F5 /* Pods_BiometricKeychain_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E5C08516EB2FC915E2BE60C0DA0BE03 /* Pods-BiometricKeychain_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0EFAE82DC2641D3BF91862A0F0A1FFC8 /* Info.plist */,
+				B92FFD44036A72E0101B9513E507E1B9 /* Pods-BiometricKeychain_Tests.modulemap */,
+				183DBE03E2DD1DF7C4ECA76787EF87A8 /* Pods-BiometricKeychain_Tests-acknowledgements.markdown */,
+				645E806A0B650F3599FDEB5AD920DA7E /* Pods-BiometricKeychain_Tests-acknowledgements.plist */,
+				B762D03B25C7C0C886DD16B82425C815 /* Pods-BiometricKeychain_Tests-dummy.m */,
+				C1EF90B60821A358EE99D2E0EEBD050D /* Pods-BiometricKeychain_Tests-frameworks.sh */,
+				70B707092BC24C56CF26BE4BBC471D69 /* Pods-BiometricKeychain_Tests-resources.sh */,
+				ED95EC1066C3BC647DC440B743F8C89F /* Pods-BiometricKeychain_Tests-umbrella.h */,
+				73D66B096D43ECAFB1C5DB2C09DEA724 /* Pods-BiometricKeychain_Tests.debug.xcconfig */,
+				29A6683A20E3E306D016F9DD17E67C2C /* Pods-BiometricKeychain_Tests.release.xcconfig */,
+			);
+			name = "Pods-BiometricKeychain_Tests";
+			path = "Target Support Files/Pods-BiometricKeychain_Tests";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D9A37FEFF03C0C568467DDB86D7F7F9B /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				29D37FCDBFBE6FC5FFD4CCD0DBE916FF /* Products */,
+				C58A181D443B8912643D985253FACB39 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9DF9A6C07DA5EF199FB86F6D4E6A8AFC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A38FCF6AD9A8E0A6E06FE14AE4470B02 /* BiometricKeychain.podspec */,
+				02FE6E0E161891892739F2F0E04681B3 /* LICENSE */,
+				EAD24F39557F748894061106A66C0196 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A5304A16EE3EC4CB6D86A836FCD767F1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F90154D289D60F3A6657779A3250690 /* BiometricKeychain.modulemap */,
+				807508AEADC209DB25713D614C4DC762 /* BiometricKeychain.xcconfig */,
+				64DA183E245FA4EDD16330F2727514D5 /* BiometricKeychain-dummy.m */,
+				912CFE25FEE031C544CAE100B61DE5CB /* BiometricKeychain-prefix.pch */,
+				244A15147725FCD276995C5D5FE28B7B /* BiometricKeychain-umbrella.h */,
+				0E23AB13FD8FDA233B749DABB73E27DE /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BiometricKeychain";
+			sourceTree = "<group>";
+		};
+		BAF7F94A2A4BB2F36219DD838C213075 /* BiometricKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				E646B48C22C6084F008BBC4A /* BioDataExtension.swift */,
+				E646B48D22C6084F008BBC4A /* BioIDHelper.swift */,
+				E646B48B22C6084E008BBC4A /* BioIDKeychain.swift */,
+				9DF9A6C07DA5EF199FB86F6D4E6A8AFC /* Pod */,
+				A5304A16EE3EC4CB6D86A836FCD767F1 /* Support Files */,
+			);
+			name = BiometricKeychain;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C58A181D443B8912643D985253FACB39 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E5C08516EB2FC915E2BE60C0DA0BE03 /* Pods-BiometricKeychain_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D9A37FEFF03C0C568467DDB86D7F7F9B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAF7F94A2A4BB2F36219DD838C213075 /* BiometricKeychain */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3DFC4893269C4D88BA63135D6DFE53FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CCA1F3831D253B57D34992EA73EBC3F /* BiometricKeychain-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E2E1D80A2D9C49D0D00329A4ECC6C66 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F12348BD4C7A1A8554E5502E666E0C07 /* Pods-BiometricKeychain_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BFDE0AD508FCDEB3A0EECD885A39D967 /* Pods-BiometricKeychain_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A67AB19472B731F3359C44DDD7EDF230 /* Build configuration list for PBXNativeTarget "Pods-BiometricKeychain_Tests" */;
+			buildPhases = (
+				3DFA95021B3E21950BC8A0B1CF7F376B /* Sources */,
+				A9D9EB5DB200589FBE7E1EA6342122DA /* Frameworks */,
+				7E2E1D80A2D9C49D0D00329A4ECC6C66 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1097DFF6478A731F94C836C807C1751D /* PBXTargetDependency */,
+			);
+			name = "Pods-BiometricKeychain_Tests";
+			productName = "Pods-BiometricKeychain_Tests";
+			productReference = 1CB3C95F7829793A1FCFEC893D9031F5 /* Pods_BiometricKeychain_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F3BDDBA4B9D79599FD58714E54F869FC /* BiometricKeychain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8314E7D1C211451B9E732280BD135679 /* Build configuration list for PBXNativeTarget "BiometricKeychain" */;
+			buildPhases = (
+				03EEB9D0DB574C10EF8B0AFB8A0EDC8A /* Sources */,
+				0ED27CF3029D9CB154C02D16C251ABC0 /* Frameworks */,
+				3DFC4893269C4D88BA63135D6DFE53FE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BiometricKeychain;
+			productName = BiometricKeychain;
+			productReference = 97C0CDD07C2F0AC3B5E67AA60713B7D1 /* BiometricKeychain.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 29D37FCDBFBE6FC5FFD4CCD0DBE916FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3BDDBA4B9D79599FD58714E54F869FC /* BiometricKeychain */,
+				BFDE0AD508FCDEB3A0EECD885A39D967 /* Pods-BiometricKeychain_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03EEB9D0DB574C10EF8B0AFB8A0EDC8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D674AA2B34C246BDEC8F9AB0DC1C8BD3 /* BiometricKeychain-dummy.m in Sources */,
+				E646B48F22C6084F008BBC4A /* BioDataExtension.swift in Sources */,
+				E646B48E22C6084F008BBC4A /* BioIDKeychain.swift in Sources */,
+				E646B49022C6084F008BBC4A /* BioIDHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DFA95021B3E21950BC8A0B1CF7F376B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57E2A9B46DA64EBBABAAE327D80AF48E /* Pods-BiometricKeychain_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1097DFF6478A731F94C836C807C1751D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BiometricKeychain;
+			target = F3BDDBA4B9D79599FD58714E54F869FC /* BiometricKeychain */;
+			targetProxy = 9315930CFB2F2CF3D1787B5172ECD395 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4FDD33C023CB98E80FE59FD3EDF53D57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 807508AEADC209DB25713D614C4DC762 /* BiometricKeychain.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BiometricKeychain/BiometricKeychain-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BiometricKeychain/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BiometricKeychain/BiometricKeychain.modulemap";
+				PRODUCT_MODULE_NAME = BiometricKeychain;
+				PRODUCT_NAME = BiometricKeychain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D54FDD39BEA3916BA59039552F27E1E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29A6683A20E3E306D016F9DD17E67C2C /* Pods-BiometricKeychain_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BiometricKeychain_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BiometricKeychain_Tests/Pods-BiometricKeychain_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F71DB3E8869F8CB5D6DD0031218F8D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 807508AEADC209DB25713D614C4DC762 /* BiometricKeychain.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BiometricKeychain/BiometricKeychain-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BiometricKeychain/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BiometricKeychain/BiometricKeychain.modulemap";
+				PRODUCT_MODULE_NAME = BiometricKeychain;
+				PRODUCT_NAME = BiometricKeychain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F810320931F80CEABF8AF66BBD738BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73D66B096D43ECAFB1C5DB2C09DEA724 /* Pods-BiometricKeychain_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BiometricKeychain_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BiometricKeychain_Tests/Pods-BiometricKeychain_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8314E7D1C211451B9E732280BD135679 /* Build configuration list for PBXNativeTarget "BiometricKeychain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F71DB3E8869F8CB5D6DD0031218F8D14 /* Debug */,
+				4FDD33C023CB98E80FE59FD3EDF53D57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A67AB19472B731F3359C44DDD7EDF230 /* Build configuration list for PBXNativeTarget "Pods-BiometricKeychain_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F810320931F80CEABF8AF66BBD738BDA /* Debug */,
+				D54FDD39BEA3916BA59039552F27E1E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

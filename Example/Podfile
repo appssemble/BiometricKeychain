@@ -1,0 +1,6 @@
+use_frameworks!
+target 'BiometricKeychain_Tests' do
+  pod 'BiometricKeychain', :path => '../'
+  
+  
+end

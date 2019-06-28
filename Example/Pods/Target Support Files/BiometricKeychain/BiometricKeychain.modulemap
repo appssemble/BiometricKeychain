@@ -1,0 +1,6 @@
+framework module BiometricKeychain {
+  umbrella header "BiometricKeychain-umbrella.h"
+
+  export *
+  module * { export * }
+}
