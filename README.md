@@ -17,12 +17,40 @@ By default it supports the following data types **String**, **Date**, **NSNumber
 
 ## Installation
 
-BiometricKeychain is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+### CocoaPods
+
+[CocoaPods](http://cocoapods.org) is a dependency manager for Cocoa projects. You can install it with the following command:
+
+```bash
+$ gem install cocoapods
+```
+
+To integrate appstore-card-transition into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
-pod 'BiometricKeychain'
+use_frameworks!
+
+target '<Your Target Name>' do
+    pod 'BiometricKeychain'
+end
 ```
+
+Then, run the following command:
+
+```bash
+$ pod repo update
+$ pod install
+```
+
+### Manual
+
+Add the library project as a subproject and set the library as a target dependency. Here is a step by step that we recommend:
+
+1. Clone this repo (as a submodule or in a different directory, it's up to you);
+2. Drag `BiometricKeychain.xcodeproj` as a subproject;
+3. In your main `.xcodeproj` file, select the desired target(s);
+4. Go to **Build Phases**, expand Target Dependencies, and add `BiometricKeychain`;
+5. In Swift, `import BiometricKeychain` and you are good to go! 
 
 ## Usage
 
