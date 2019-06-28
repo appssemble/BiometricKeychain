@@ -1,13 +1,11 @@
 # BiometricKeychain
 
-[![CI Status](https://img.shields.io/travis/dobreandl/BiometricKeychain.svg?style=flat)](https://travis-ci.org/dragosAddisonLee/BiometricKeychain)
 [![Version](https://img.shields.io/cocoapods/v/BiometricKeychain.svg?style=flat)](https://cocoapods.org/pods/BiometricKeychain)
-[![License](https://img.shields.io/cocoapods/l/BiometricKeychain.svg?style=flat)](https://cocoapods.org/pods/BiometricKeychain)
 [![Platform](https://img.shields.io/cocoapods/p/BiometricKeychain.svg?style=flat)](https://cocoapods.org/pods/BiometricKeychain)
 
 ## Requirements
 
-iOS 10
+- iOS 10
 
 ## Installation
 
@@ -18,9 +16,47 @@ it, simply add the following line to your Podfile:
 pod 'BiometricKeychain'
 ```
 
+## Usage
+
+```swift
+  import BiometricKeychain
+  
+  class ViewController: UIViewController {
+    
+    let bioKeychain = BioIDKeychain()
+    
+    func demoType() {
+      let fetchedBioType = bioKeychain.bioType // The type of the biometric installed on the device
+    }
+    
+    func demoSave() {
+        bioKeychain.setBoolForKey(bool: false, forKey: "bool") { (success) in
+            guard success else {
+                print("failed saving the bool value")
+
+                return
+            }
+
+            print("bool value saved")
+        }
+    }
+    
+    func demoGet() {
+        self.bioKeychain.getBool(forKey: "bool") { (success, bool) in
+            guard success, let value = bool else {
+                print("failed saving the bool value")
+                
+                return
+            }
+            
+            print("The saved value is \(value)")
+        }
+    }
+```
+
 ## Author
 
-appssemble, dragos@appssemble.com
+appssemble, office@appssemble.com
 
 ## License
 
