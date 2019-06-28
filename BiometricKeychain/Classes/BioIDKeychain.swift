@@ -59,6 +59,10 @@ public class BioIDKeychain {
 
         return .none
     }
+    
+    public init() {
+        // Public init
+    }
 
     /**
      Saves a string object protected by Biometric authentication for the specified key
