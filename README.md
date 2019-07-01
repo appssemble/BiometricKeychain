@@ -2,6 +2,9 @@
 
 [![Version](https://img.shields.io/cocoapods/v/BiometricKeychain.svg?style=flat)](https://cocoapods.org/pods/BiometricKeychain)
 [![Platform](https://img.shields.io/cocoapods/p/BiometricKeychain.svg?style=flat)](https://cocoapods.org/pods/BiometricKeychain)
+![Xcode 10.0+](https://img.shields.io/badge/Xcode-10.0%2B-blue.svg)
+![iOS 10.0+](https://img.shields.io/badge/iOS-10.0%2B-blue.svg)
+![Swift 4.0+](https://img.shields.io/badge/Swift-4.0%2B-orange.svg)
 
 ## Description
 
