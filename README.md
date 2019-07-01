@@ -225,7 +225,7 @@ Add the library project as a subproject and set the library as a target dependen
 
 ## Author
 
-appssemble, office@appssemble.com
+[appssemble](https://appssemble.com), office@appssemble.com
 
 ## License
 
